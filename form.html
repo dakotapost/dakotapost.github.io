@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        .radio-group {
+            display: inline-flex;
+            gap: 10px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="input1">Input 1:</label>
+        <input type="text" id="input1" name="input1"><br><br>
+
+        <label for="input2">Input 2:</label>
+        <input type="text" id="input2" name="input2"><br><br>
+
+        <label>Option 1:</label>
+        <span class="radio-group">
+            <input type="radio" id="option1_yes" name="option1" value="yes">
+            <label for="option1_yes">YES</label>
+            <input type="radio" id="option1_no" name="option1" value="no">
+            <label for="option1_no">NO</label>
+        </span><br>
+
+        <label>Option 2:</label>
+        <span class="radio-group">
+            <input type="radio" id="option2_yes" name="option2" value="yes">
+            <label for="option2_yes">YES</label>
+            <input type="radio" id="option2_no" name="option2" value="no">
+            <label for="option2_no">NO</label>
+        </span><br>
+
+        <label>Option 3:</label>
+        <span class="radio-group">
+            <input type="radio" id="option3_yes" name="option3" value="yes">
+            <label for="option3_yes">YES</label>
+            <input type="radio" id="option3_no" name="option3" value="no">
+            <label for="option3_no">NO</label>
+        </span><br>
+
+        <label>Option 4:</label>
+        <span class="radio-group">
+            <input type="radio" id="option4_yes" name="option4" value="yes">
+            <label for="option4_yes">YES</label>
+            <input type="radio" id="option4_no" name="option4" value="no">
+            <label for="option4_no">NO</label>
+        </span><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
